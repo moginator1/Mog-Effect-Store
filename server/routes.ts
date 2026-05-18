@@ -38,8 +38,8 @@ export async function registerRoutes(httpServer: Server, app: Express) {
           quantity: 1,
         }],
         mode: "payment",
-        success_url: `${BASE_URL}/#/thank-you?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${BASE_URL}/#/`,
+        success_url: `${BASE_URL}/thank-you?session_id={CHECKOUT_SESSION_ID}`,
+        cancel_url: `${BASE_URL}/`,
         customer_email: req.body.email || undefined,
         metadata: {
           product: "mog_effect_blueprint",

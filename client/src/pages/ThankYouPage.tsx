@@ -6,7 +6,7 @@ import { apiRequest } from "@/lib/queryClient";
 export default function ThankYouPage() {
   const [location] = useLocation();
   const params = new URLSearchParams(
-    typeof window !== "undefined" ? window.location.hash.split("?")[1] || "" : ""
+    typeof window !== "undefined" ? window.location.search || "" : ""
   );
   const sessionId = params.get("session_id") || "";
 
