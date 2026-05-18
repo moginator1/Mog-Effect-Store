@@ -310,7 +310,7 @@ export default function SalesPage() {
             about transforming their body without giving up their career or family.
           </p>
           <p className="text-[#7A7470] text-sm">
-            bryanmogrovejo.com · @TheMogEffect
+            mogmethod.com · @TheMogEffect
           </p>
         </div>
       </section>
@@ -380,8 +380,8 @@ export default function SalesPage() {
 
           <p className="text-center text-xs text-[#5A5450] mt-4">
             Questions? Email{" "}
-            <a href="mailto:bryan@bryanmogrovejo.com" className="text-amber-600 hover:text-amber-500">
-              bryan@bryanmogrovejo.com
+            <a href="mailto:moginator@mogmethod.com" className="text-amber-600 hover:text-amber-500">
+              moginator@mogmethod.com
             </a>
           </p>
         </div>
@@ -393,9 +393,9 @@ export default function SalesPage() {
           <div className="text-amber-500 font-black text-lg mb-2">THE MOG EFFECT</div>
           <p className="text-xs text-[#4A4540]">
             © 2026 Bryan Mogrovejo Coaching · All Rights Reserved<br />
-            <a href="mailto:bryan@bryanmogrovejo.com" className="hover:text-amber-600">bryan@bryanmogrovejo.com</a>
+            <a href="mailto:moginator@mogmethod.com" className="hover:text-amber-600">moginator@mogmethod.com</a>
             {" · "}
-            <a href="https://bryanmogrovejo.com" className="hover:text-amber-600">bryanmogrovejo.com</a>
+            <a href="https://mogmethod.com" className="hover:text-amber-600">mogmethod.com</a>
           </p>
         </div>
       </footer>

@@ -123,7 +123,7 @@ export default function ThankYouPage() {
                 ))}
               </div>
               <a
-                href="https://bryanmogrovejo.com/coaching"
+                href="https://mogmethod.com/coaching"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-coaching"
@@ -137,8 +137,8 @@ export default function ThankYouPage() {
             <div className="text-center border-t border-[#2D2926] pt-8">
               <p className="text-[#7A7470] text-sm">
                 Questions about your purchase?{" "}
-                <a href="mailto:bryan@bryanmogrovejo.com" className="text-amber-600 hover:text-amber-500">
-                  bryan@bryanmogrovejo.com
+                <a href="mailto:moginator@mogmethod.com" className="text-amber-600 hover:text-amber-500">
+                  moginator@mogmethod.com
                 </a>
               </p>
             </div>
@@ -150,11 +150,11 @@ export default function ThankYouPage() {
             <p className="text-[#C8B898] mb-8">
               If you completed a purchase, check your email for the delivery link.
               If you need help, email{" "}
-              <a href="mailto:bryan@bryanmogrovejo.com" className="text-amber-500">
-                bryan@bryanmogrovejo.com
+              <a href="mailto:moginator@mogmethod.com" className="text-amber-500">
+                moginator@mogmethod.com
               </a>
             </p>
-            <a href="/#/" className="text-amber-500 hover:text-amber-400 font-bold">
+            <a href="/" className="text-amber-500 hover:text-amber-400 font-bold">
               ← Back to the sales page
             </a>
           </div>
