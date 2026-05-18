@@ -10,8 +10,8 @@ const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY || "";
 const BASE_URL = process.env.BASE_URL || "http://localhost:5000";
 const PRODUCT_PRICE_CENTS = 2700; // $27.00
-const REPLY_EMAIL = "bryan@bryanmogrovejo.com";
-const FROM_EMAIL = "bryan@bryanmogrovejo.com";
+const REPLY_EMAIL = "moginator@mogmethod.com";
+const FROM_EMAIL = "moginator@mogmethod.com";
 const FROM_NAME = "Bryan Mogrovejo — The Mog Effect";
 
 export async function registerRoutes(httpServer: Server, app: Express) {
