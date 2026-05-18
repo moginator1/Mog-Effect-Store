@@ -1,7 +1,6 @@
 import express from "express";
 import { createServer } from "http";
 import { registerRoutes } from "./routes";
-import { setupVite } from "./vite";
 import { serveStatic } from "./static";
 
 const app = express();
@@ -24,6 +23,7 @@ const server = createServer(app);
   if (process.env.NODE_ENV === "production") {
     serveStatic(app);
   } else {
+    const { setupVite } = await import("./vite");
     await setupVite(app, server);
   }
 
